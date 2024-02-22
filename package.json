@@ -5,7 +5,7 @@
   "main": "app.js",
   "scripts": {
     "start": "concurrently 'npm run watch:node' 'npm run watch:sass' 'npm run browsersync'",
-    "browsersync": "browser-sync start --proxy http://localhost:3000 --files='*.css, *.html'",
+    "browsersync": "browser-sync start --proxy http://localhost:3000 --files='public'",
     "watch:node": "node --watch app.js",
     "watch:sass": "sass --watch src/sass:public/css"
   },
