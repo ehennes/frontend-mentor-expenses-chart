@@ -1,0 +1,23 @@
+{
+  "name": "expenses-chart-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)",
+  "main": "app.js",
+  "scripts": {
+    "start": "concurrently 'npm run watch:node' 'npm run watch:sass' 'npm run browsersync'",
+    "browsersync": "browser-sync start --proxy http://localhost:3000 --files='*.css, *.html'",
+    "watch:node": "node --watch app.js",
+    "watch:sass": "sass --watch src/sass:public/css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "browser-sync": "^3.0.2",
+    "concurrently": "^8.2.2",
+    "sass": "^1.71.1"
+  }
+}
