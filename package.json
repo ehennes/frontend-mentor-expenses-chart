@@ -1,11 +1,11 @@
 {
   "name": "expenses-chart-component-main",
   "version": "1.0.0",
-  "description": "![Design preview for the Expenses chart component coding challenge](./design/desktop-preview.jpg)",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "concurrently 'npm run watch:node' 'npm run watch:sass' 'npm run browsersync'",
-    "browsersync": "browser-sync start --proxy http://localhost:3000 --files='public'",
+    "browsersync": "browser-sync start --proxy http://localhost:3000 --files='public, src'",
     "watch:node": "node --watch app.js",
     "watch:sass": "sass --watch src/sass:public/css"
   },
