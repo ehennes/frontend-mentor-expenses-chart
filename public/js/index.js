@@ -3,7 +3,7 @@ const chart = document.querySelector('.chart');
 const barContainers = document.querySelectorAll('.chart .bar-container');
 
 // pull in data from data.json file 
-fetch('/src/json/data.json')
+fetch('/json/data.json')
     .then(response => response.json())
     .then(data => {
         let total = 0; 
