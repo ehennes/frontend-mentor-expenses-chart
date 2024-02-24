@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+module.exports=`<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -75,8 +75,8 @@
       </small>
     </footer>
   </section>
-  <script src="https://unpkg.com/@popperjs/core@2"></script>
-  <script src="https://unpkg.com/tippy.js@6"></script>
-  <script src="src/js/index.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/@popperjs/core@2"><\/script>
+  <script src="https://unpkg.com/tippy.js@6"><\/script>
+  <script src="src/js/index.js" type="text/javascript"><\/script>
 </body>
-</html>
+</html>`;
