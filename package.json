@@ -9,8 +9,7 @@
     "watch:node": "node --watch app.js",
     "watch:sass": "sass --watch src/sass:public/css",
     "build:sass": "sass src/sass:public/css",
-    "esbuild": "esbuild public/css/main.css public/index.html src/js/index.js public/images/logo.svg public/images/favicon-32x32.png public/images/expenses-chart-screenshot.png --minify --outdir=out --loader:.html=text --loader:.svg=text --loader:.png=text",
-    "build": "concurrently 'npm run build:sass' 'npm run esbuild'"
+    "build": "npm run build:sass"
   },
   "keywords": [],
   "author": "",
@@ -21,7 +20,6 @@
   "devDependencies": {
     "browser-sync": "^3.0.2",
     "concurrently": "^8.2.2",
-    "esbuild": "0.20.1",
     "sass": "^1.71.1"
   }
 }
